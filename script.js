@@ -1,15 +1,11 @@
-const message = prompt('Please type in a number between 1 and 100.');
-console.log(message);
+let input = prompt('Please type in a number between 1 and 100.');
 
-let input = 10;
-
-let subtract = input - 5;
-console.log(subtract);
-
+let divide = input / 2;
 let multiply = input * 2;
-console.log(multiply);
 
-
-
-
-
+let msg = "Your number is: " + input; 
+console.log(msg);
+msg = "Half of your number is: " + divide;
+console.log(msg);
+msg = "Double your number is: " + multiply;
+console.log(msg);
